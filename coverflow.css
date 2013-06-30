@@ -1,0 +1,46 @@
+body
+{
+    background: #000;
+}
+
+ul
+{
+    margin: 0;
+    padding-top: 40px;
+    background-color: #BBB;
+}
+
+li
+{
+	float: left;
+	-webkit-transition: -webkit-transform 0.1s ease-in;
+}
+
+img
+{
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.95, transparent), to(#777));
+}
+
+div
+{
+    position: absolute;
+}
+
+.container
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-perspective: 1000px;
+
+    background-color: #777;
+}
+
+.txtLabel
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family:Terminal;
+    font-size:9px;
+    color: #FFF;
+}

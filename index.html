@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="coverflow.css">
+		<script type="text/javascript" src="coverflow.js"></script>
+		<script>
+			var cf;
+
+			function init()
+			{
+				var _data = 
+				{
+					"coverSize" : "250",
+					"data" :
+					[
+						{"img"   : "covers/1.jpg",
+						 "title" : "Titulo 1"},
+						{"img"   : "covers/2.jpg",
+						 "title" : "Titulo 2"},
+						{"img"   : "covers/3.jpg",
+						 "title" : "Titulo 3"},
+						{"img"   : "covers/4.jpg",
+						 "title" : "Titulo 4"},
+						{"img"   : "covers/5.jpg",
+						 "title" : "Titulo 5"},
+						{"img"   : "covers/6.jpg",
+						 "title" : "Titulo 6"},
+						{"img"   : "covers/7.jpg",
+						 "title" : "Titulo 7"},
+						{"img"   : "covers/8.jpg",
+						 "title" : "Titulo 8"},
+						{"img"   : "covers/9.jpg",
+						 "title" : "Titulo 9"},
+						{"img"   : "covers/10.jpg",
+						 "title" : "Titulo 10"}
+					]
+				};
+
+				cf = new coverflow(_data);
+			}
+		</script>
+
+	</head>
+	
+	<body onload="init();">
+		<div class="txtLabel">js+css3 coverflow.<BR>+ horizontal mouse scroll<BR>+ L, R keys</div>
+	</body>
+</html>
